@@ -5,9 +5,9 @@ const Registr = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
   return (
-    <div className="h-[92.5vh] w-auto flex items-center justify-center bg-black">
+    <div className="h-[91.7vh] w-auto flex items-center justify-center bg-black">
       <form className="max-w-sm mx-auto bg-slate-600 text-slate-900 p-7 border-spacing-3 radius">
-      <h4 className="text-center text-white">PLEASE REGISTR</h4>
+      <h4 className="text-center text-white mb-2">PLEASE REGISTR</h4>
         <div className="mb-5">
           <Input label={"Email address"} state={email} setState={setEmail}/>
           <Input label={"Password"} type={'password'} state={password} setState={setPassword}/>
