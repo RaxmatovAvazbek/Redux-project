@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 const initialState = {
     isLoading : false,
-    isloggenIn : false,
+    isloggedIn : false,
     user: null,
 }
 
